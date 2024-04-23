@@ -1,0 +1,21 @@
+{
+  "name": "EtherJs-call-Uniswap",
+  "version": "1.0.0",
+  "description": "0. Token转移 1. 如何创建交易对池子 2. mint 流动性NFT 3. 添加流动性（increaseLiquidity） 4. SWAP（exactInputSinngle） 5. 精确兑换（exactOutput） 6. 收集流动性的手续费（collect）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/v3-sdk": "^3.8.2",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.6.4"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
+}
